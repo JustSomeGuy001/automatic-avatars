@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<plugin>
+    <name>Automatic Avatars</name>
+    <key>autoavatars</key>
+    <description>Automatically assign avatars to users.</description>
+    <author>Dev Forward</author>
+    <authorEmail>devforward20@gmail.com</authorEmail>
+    <authorUrl>https://github.com/JustSomeGuy001/</authorUrl>
+    <developerKey>6dba00bb173227638643427ea9151b9c</developerKey>
+    <build>1.0</build>
+    <copyright>(C) 2020</copyright>
+    <license>The 3-Clause BSD License</license>
+    <licenseUrl>https://opensource.org/licenses/BSD-3-Clause</licenseUrl>
+</plugin>
