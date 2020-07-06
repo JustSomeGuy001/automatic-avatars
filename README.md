@@ -13,12 +13,14 @@ I'm not currently planning on adding any major features. However, if I get many 
 - User Role
 - The profile question of your choice
 
-### Notes on plug-in operation
+## Notes on plug-in operation
+
+This plugin does NOT change the default Oxwall avatar, as that would require changes to the Oxwall core, which is not allowed by the Oxwall plugin development guidelines. Instead, it operates by assigning an avatar to newly registered users. 
 
 - Avatars will be assigned to new users only. Existing users will retain their standard Oxwall default avatar.
 
-- Users can delete the default-avatars that you assign with this plugin. If they do so, their avatar will revert back to the standard Oxwall default avatar.
+- Users can delete the avatars that you assign with this plugin. If they do so, their avatar will revert back to the standard Oxwall default avatar.
 
-- Avatars with transparent backgrounds are allowed, but not recommended. As of version 1.8.x, Oxwall converts all uploaded avatars to .jpg images, which will cause unexpected results in images with transparent backgrounds.
+- Avatars with transparent backgrounds are recognized and allowed by this plugin, but they are not recommended. As of version 1.8.x, Oxwall converts all uploaded avatars to .jpg images, which will cause unexpected results in images with transparent backgrounds. 
 
 Please report any bugs, and feel free to offer suggestions or feature-requests.
